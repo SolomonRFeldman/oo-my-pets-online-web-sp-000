@@ -30,6 +30,10 @@ class Owner
     @pets[:dogs] << Dog.new(name)
   end
   
+  def feed_fish
+    @pets[:fishes].each { |fish| fish.
+  end
+  
   def self.all
     @@all
   end
