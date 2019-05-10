@@ -19,7 +19,7 @@ class Owner
   end
   
   def buy_fish(name)
-    
+    fish.new(name)
   
   def self.all
     @@all
